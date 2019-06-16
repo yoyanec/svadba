@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto";
+  color: black !important;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  padding: 2rem 0 0 2rem;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+header.hlavicka {
+  padding-top: calc(3rem);
+  padding-bottom: 3rem;
+  background: white;
+}
+
+header.hlavicka .hlavicka-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.hlavicka .hlavicka-content .hlavicka-heading,
+header.hlavicka .hlavicka-content .hlavicka-heading-line {
+  font-family: "bernhard_modern_cg_romanRg";
+  font-weight: normal !important;
+  padding-bottom: calc(1rem);
+  font-size: 3rem;
+  color: #23424a;
+}
+
+header.hlavicka .hlavicka-content .hlavicka-heading-line::before,
+header.hlavicka .hlavicka-content .hlavicka-heading-line::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.3rem solid #23424a;
+  width: 9rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+  font-size: 4rem;
+}
+
+header.hlavicka .hlavicka-content .hlavicka-subheading {
+  font-size: 2rem;
+  color: black;
+  padding-top: 3rem;
+}
+
+header.hlavicka .hlavicka-content img {
+  padding-bottom: calc(3rem);
+}
+
+section {
+  padding-top: calc(3rem);
+  padding-bottom: 3rem;
+}
+
+section .heading-line {
+  font-family: "bernhard_modern_cg_romanRg";
+  font-weight: normal !important;
+  padding-bottom: calc(1rem);
+  font-size: 3rem;
+  color: #23424a;
+}
+
+section .heading-line {
+  font-family: "bernhard_modern_cg_romanRg";
+  padding-bottom: calc(1rem);
+  font-size: 3rem;
+  color: #23424a;
+}
+
+section .heading-line::before,
+section .heading-line::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.2rem solid #23424a;
+  width: 4rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+section span {
+  font-size: 1rem;
+  color: #23424a;
+}
+.googlemap {
+  position: relative;
+  padding-bottom: 45%;
+  height: 0;
+  overflow: hidden;
+}
+
+.googlemap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (min-width: 992px) {
+  header.hlavicka {
+    padding-top: calc(3rem);
+    padding-bottom: 2rem;
+  }
+  header.hlavicka .hlavicka-content .hlavicka-heading {
+    font-size: 5rem;
+  }
+  header.hlavicka .hlavicka-content .hlavicka-heading-line {
+    font-size: 5rem;
+  }
+
+  header.hlavicka .hlavicka-content .hlavicka-heading-line::before,
+  header.hlavicka .hlavicka-content .hlavicka-heading-line::after {
+    width: 15rem;
+  }
+
+  header.hlavicka .hlavicka-content .hlavicka-subheading {
+    font-size: 3rem;
+  }
+}
