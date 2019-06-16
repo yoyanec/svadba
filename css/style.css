@@ -87,6 +87,11 @@ section .heading-line::after {
   transform: translateY(-1rem);
 }
 
+section .heading-line .dress::before,
+section .heading-line .dress::after {
+  width: 1rem;
+}
+
 section span {
   font-size: 1rem;
   color: #23424a;
